@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Étudiante en développement web</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-500 text-gray-100 font-sans">
+  
+  <!-- Header -->
+  <header class="bg-gray-800 shadow-lg fixed top-0 left-0 w-full z-50">
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-white">Mon Portfolio</h1>
+      <ul class="flex gap-6">
+        <li><a href="#about" class="hover:text-teal-300">À propos</a></li>
+        <li><a href="#projects" class="hover:text-teal-300">Projets</a></li>
+        <li><a href="#skills" class="hover:text-teal-300">Compétences</a></li>
+        <li><a href="#contact" class="hover:text-teal-300">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<section 
+  class="h-screen flex flex-col justify-center items-center text-center px-4 bg-cover bg-center bg-no-repeat"
+  style="background-image: url('img/personne-travaillant-html-sur-ordinateur.jpg');"
+>
+  <div class="bg-black bg-opacity-50 w-full h-full absolute top-0 left-0"></div>
+
+  <div class="relative z-10">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4 text-white">Bonjour, je suis <span class="text-teal-300">Amira Belgharat</span></h2>
+    <p class="text-lg md:text-xl max-w-2xl mb-6 text-white text-center">
+      Développeuse Front-End & Intégratrice Web<br>
+      Passionnée par la création d’interfaces modernes et performantes.
+
+    </p>
+    <a href="#projects" class="bg-teal-400 text-gray-900 px-6 py-3 rounded-xl shadow-lg hover:bg-teal-300 transition">
+      Voir mes projets
+    </a>
+  </div>
+</section>
+
+
+
+
+
+  <section id="about" class="py-20 px-6 bg-gray-600">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">À propos de moi</h3>
+      <p class="text-lg leading-relaxed">
+ Je suis passionnée par la création d’interfaces web modernes, accessibles et performantes.
+J’aime transformer des idées en expériences interactives et immersives en utilisant HTML, CSS, TailwindCSS, JavaScript, React, Vue.js et Angular.
+
+
+      </p>
+    </div>
+  </section>
+
+ <!-- Projets -->
+<section id="projects" class="py-20 px-6 bg-gray-700 text-white">
+  <div class="max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-12">Mes projets</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <!-- Projet 1 : Site cinématographique -->
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <h4 class="text-xl font-semibold mb-3">🎬 Site cinématographique</h4>
+        <p class="text-sm mb-4">
+          Site web interactif présentant plusieurs films avec leurs affiches et descriptions. 
+          Construit en <strong>HTML, JavaScript, Sass</strong> et <strong>TailwindCSS</strong>. 
+          Hébergé sur <strong>GitHub Pages</strong>.
+        </p>
+        <a href="https://amirab123.github.io/TP2_Site_Cinematographique/" target="_blank" class="text-teal-300 hover:underline">Voir le projet</a>
+      </div>
+
+      <!-- Projet 2 : Application PHP -->
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <h4 class="text-xl font-semibold mb-3">💾 Application web en PHP</h4>
+        <p class="text-sm mb-4">
+          Application dynamique développée en <strong>PHP</strong> avec une base de données 
+          <strong>MySQL</strong> pour la gestion des Bibliothèques   (CRUD). 
+          Interface en <strong>HTML et CSS</strong>, hébergée sur <strong>HostPapa</strong>.
+        </p>
+        <a href="https://amira2025.ca/" target="_blank" class="text-teal-300 hover:underline">Voir le projet</a>
+      </div>
+
+      <!-- Projet 3 : Application React -->
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+        <h4 class="text-xl font-semibold mb-3">⚡ Application React – Réservation</h4>
+        <p class="text-sm mb-4">
+          Application de réservation de véhicules électriques créée avec 
+          <strong>React.js</strong> (Hooks, Context API) et <strong>TailwindCSS</strong>. 
+          Interface responsive et hébergement sur <strong>Vercel</strong>.
+        </p>
+        <a href="https://tonapp-react.vercel.app" target="_blank" class="text-teal-300 hover:underline">Voir le projet</a>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
+  <h4 class="text-xl font-semibold mb-3">✈️ Site d’agence de voyage</h4>
+  <p class="text-sm mb-4">
+    Conception d’un site web moderne et responsive pour une agence de voyage. 
+    Réalisé avec <strong>HTML, JavaScript</strong> et stylisé à l’aide de 
+    <strong>Sass</strong> et <strong>TailwindCSS</strong>.  
+    Le site présente les destinations, les offres spéciales et un formulaire de contact interactif.  
+    Déployé sur <strong>GitHub Pages</strong>.
+  </p>
+  <a href=" https://amirab123.github.io/TP3/" target="_blank" class="text-teal-300 hover:underline">Voir le projet</a>
+</div>
+    </div>
+    
+  </div>
+  <!-- Projet 4 : Site d'agence de voyage -->
+
+
+</section>
+
+
+  
+ 
+
+<section id="skills" class="py-20 px-6 bg-gray-600">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-6">Compétences</h3>
+
+    <!-- Compétences techniques -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-lg">
+      <span class="bg-gray-700 rounded-lg px-4 py-2">HTML5</span>
+      <span class="bg-gray-700 rounded-lg px-4 py-2">CSS3 / Tailwind</span>
+      <span class="bg-gray-700 rounded-lg px-4 py-2">JavaScript</span>
+      <span class="bg-gray-700 rounded-lg px-4 py-2">React</span>
+      <span class="bg-gray-700 rounded-lg px-4 py-2">WordPress</span>
+      <span class="bg-gray-700 rounded-lg px-4 py-2">PHP / SQL</span>
+      <span class="bg-gray-700 rounded-lg px-4 py-2">Git / GitHub</span>
+      <span class="bg-gray-700 rounded-lg px-4 py-2">Figma</span>
+
+      <span class="bg-gray-700 rounded-lg px-4 py-2">Vue js</span>
+  
+      <span class="bg-gray-700 rounded-lg px-4 py-2">Angular</span>
+      <span class="bg-gray-700 rounded-lg px-4 py-2">Sass</span>
+   <span class="bg-gray-700 rounded-lg px-4 py-2">Agile</span>
+
+      <span class="bg-gray-700 rounded-lg px-4 py-2">Firebase</span>
+
+    </div>
+
+    <!-- Hébergement -->
+    <div class="mt-10 text-left">
+      <h4 class="text-2xl font-semibold mb-4">Hébergement web</h4>
+      <ul class="list-disc list-inside max-w-lg mx-auto space-y-2 text-lg">
+        <li>Mise en ligne de sites statiques sur <strong>GitHub Pages</strong>.</li>
+        <li>Hébergement de projets PHP et WordPress sur <strong>HostPapa</strong> et <strong>IONOS</strong>.</li>
+        <li>Gestion de noms de domaine et configuration DNS.</li>
+        <li>Déploiement de sites avec optimisation performance et sécurité.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="contact" class="py-20 px-6 bg-gray-700 text-white">
+  <div class="max-w-4xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-6">Contact</h3>
+    <p class="mb-6">N’hésitez pas à me contacter pour discuter d’un projet ou d’une opportunité.</p>
+    <button 
+      onclick="alert('📧 Mon adresse e-mail : amira.belgharat.21@gmail.com'); window.location.href='mailto:amira.belgharat.21@gmail.com';"
+      class="bg-teal-400 text-gray-900 px-6 py-3 rounded-xl shadow-lg hover:bg-teal-300 transition">
+      M'écrire
+    </button>
+  </div>
+</section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center py-6 mt-10">
+    <p class="text-sm">&copy; 2025 Mon Portfolio - Développé avec ❤️ et Tailwind CSS</p>
+  </footer>
+
+</body>
+</html>
